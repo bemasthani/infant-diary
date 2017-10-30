@@ -1,16 +1,25 @@
 {
-  "name": "infant-diary",
+  "name": "node-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "form-serialize": "^0.7.2",
+    "mongoose": "*",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.10",
+    "sort-by": "^1.2.0",
+    "mongodb": "*",
+    "node-restful": "*"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "main": "server.js"
 }
